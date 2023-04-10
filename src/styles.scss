@@ -15,6 +15,10 @@ body {
   color: var(--body-text-color) !important;
 }
 
+a{
+  text-decoration: none;
+}
+
 .site-logo {
   padding: 5px 20px;
   border-radius: 20px;
@@ -30,4 +34,31 @@ body {
 .shadow-effect {
   border: none;
   box-shadow: 0px 0px 33px -10px rgb(71, 114, 254, 0.3);
+}
+
+.bg-theme {
+  background-color: var(--primary-color);
+}
+
+.bg-secondary-theme {
+  background-color: var(--secondary-color);
+}
+
+.text-theme-primary {
+  color: var(--primary-color);
+}
+
+input {
+  height: 60px;
+  padding-left: 20px;
+  font-size: 13px;
+  width: 100%;
+}
+
+.btn-theme {
+  height: 58px;
+  border: none;
+  font-size: 13px;
+  color: white;
+  background-color: var(--primary-color);
 }
